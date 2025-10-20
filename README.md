@@ -4,7 +4,7 @@ Prettier for MarkEdit that leverages [markedit-api](https://github.com/MarkEdit-
 
 ## Installation
 
-Copy [dist/markedit-prettier.js](dist/markedit-prettier.js) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
+Copy [dist/markedit-prettier.js](dist/markedit-prettier.js?raw=true) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
 
 You can also run `yarn install && yarn build` to build and deploy the script.
 
