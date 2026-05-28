@@ -1,6 +1,6 @@
 # markedit-prettier
 
-Prettier for MarkEdit that leverages [markedit-api](https://github.com/MarkEdit-app/MarkEdit-api).
+Prettier for [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) that leverages [markedit-api](https://github.com/MarkEdit-app/MarkEdit-api).
 
 ## Installation
 
