@@ -1,13 +1,20 @@
-# markedit-prettier
+# MarkEdit-prettier
 
 Prettier for [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) that leverages [markedit-api](https://github.com/MarkEdit-app/MarkEdit-api).
 
 ## Installation
 
-Copy [dist/markedit-prettier.js](dist/markedit-prettier.js?raw=true) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
-
-You can also run `yarn install && yarn build` to build and deploy the script.
+Install this extension from the [MarkEdit Extension Registry](https://markedit-app.github.io/extensions/#markedit-prettier).
 
 ## Usage
 
 Run `Prettify Content` from the menu bar or press `Shift-Control-Command-P`.
+
+## Building
+
+```
+yarn install
+yarn build
+```
+
+`yarn build` also deploys the extension to your local MarkEdit installation.
