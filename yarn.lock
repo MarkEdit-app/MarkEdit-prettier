@@ -68,6 +68,29 @@
   resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@oxc-project/types/-/types-0.142.0.tgz#0b4bd7841ef3dd267a69184b97452cc0b313fb52"
   integrity sha1-C0vXhB7z3SZ6aRhLl0UswLMT+1I=
 
+"@pierre/diffs@^1.3.5":
+  version "1.3.5"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@pierre/diffs/-/diffs-1.3.5.tgz#84447e26aae21dfdd11149e9b238c22c5cadd788"
+  integrity sha1-hER+JqriHf3REUnpsjjCLFyt14g=
+  dependencies:
+    "@pierre/theme" "2.0.0"
+    "@pierre/theming" "1.0.1"
+    "@shikijs/transformers" "^3.0.0 || ^4.0.0"
+    diff "9.0.0"
+    hast-util-to-html "9.0.5"
+    lru_map "0.4.1"
+    shiki "^3.0.0 || ^4.0.0"
+
+"@pierre/theme@2.0.0":
+  version "2.0.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@pierre/theme/-/theme-2.0.0.tgz#492924128fe652c0096622fe0d89558ba66ce5fa"
+  integrity sha1-SSkkEo/mUsAJZiL+DYlVi6Zs5fo=
+
+"@pierre/theming@1.0.1":
+  version "1.0.1"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@pierre/theming/-/theming-1.0.1.tgz#79601332d7985b5f37ceebe20399a15ededa6809"
+  integrity sha1-eWATMteYW183zuviA5mhXt7aaAk=
+
 "@rolldown/binding-android-arm64@1.2.2":
   version "1.2.2"
   resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@rolldown/binding-android-arm64/-/binding-android-arm64-1.2.2.tgz#b7d235d45b38c84f26892ac804bb4f17438abbfe"
@@ -143,6 +166,92 @@
   resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz#e3fcee093fbb5ce765e1ad088ff4de2889f6f9be"
   integrity sha1-4/zuCT+7XOdl4a0Ij/TeKIn2+b4=
 
+"@shikijs/core@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/core/-/core-4.4.3.tgz#00a942fa45ad0e4146ac6dbbac32b8b704b42e3f"
+  integrity sha1-AKlC+kWtDkFGrG27rDK4twS0Lj8=
+  dependencies:
+    "@shikijs/primitive" "4.4.3"
+    "@shikijs/types" "4.4.3"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.5"
+    hast-util-to-html "^9.0.5"
+
+"@shikijs/engine-javascript@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/engine-javascript/-/engine-javascript-4.4.3.tgz#42dbdc18ec2f86003624674839a8f090cdd7cb62"
+  integrity sha1-QtvcGOwvhgA2JGdIOajwkM3Xy2I=
+  dependencies:
+    "@shikijs/types" "4.4.3"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    oniguruma-to-es "^4.3.6"
+
+"@shikijs/engine-oniguruma@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/engine-oniguruma/-/engine-oniguruma-4.4.3.tgz#a1754f9f42e0f35a55cda9a977599041a2ad5b07"
+  integrity sha1-oXVPn0Lg81pVzampd1mQQaKtWwc=
+  dependencies:
+    "@shikijs/types" "4.4.3"
+    "@shikijs/vscode-textmate" "^10.0.2"
+
+"@shikijs/langs@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/langs/-/langs-4.4.3.tgz#113282396f119dbba8d3b5e86668258fa8df6e7b"
+  integrity sha1-ETKCOW8Rnbuo07XoZmglj6jfbns=
+  dependencies:
+    "@shikijs/types" "4.4.3"
+
+"@shikijs/primitive@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/primitive/-/primitive-4.4.3.tgz#86490cea63b3e2c56b8d9163046e010258844d81"
+  integrity sha1-hkkM6mOz4sVrjZFjBG4BAliETYE=
+  dependencies:
+    "@shikijs/types" "4.4.3"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.5"
+
+"@shikijs/themes@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/themes/-/themes-4.4.3.tgz#8310a78261f4cf742663e07e2028df046a02bd72"
+  integrity sha1-gxCngmH0z3QmY+B+ICjfBGoCvXI=
+  dependencies:
+    "@shikijs/types" "4.4.3"
+
+"@shikijs/transformers@^3.0.0 || ^4.0.0":
+  version "4.4.3"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/transformers/-/transformers-4.4.3.tgz#18869d95b0e2656fa7ae98350e09408c57585018"
+  integrity sha1-GIadlbDiZW+nrpg1DglAjFdYUBg=
+  dependencies:
+    "@shikijs/core" "4.4.3"
+    "@shikijs/types" "4.4.3"
+
+"@shikijs/types@4.4.3":
+  version "4.4.3"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/types/-/types-4.4.3.tgz#019aff19f0cbfb21642c59f6f8432ced74e27b45"
+  integrity sha1-AZr/GfDL+yFkLFn2+EMs7XTie0U=
+  dependencies:
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.5"
+
+"@shikijs/vscode-textmate@^10.0.2":
+  version "10.0.2"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@shikijs/vscode-textmate/-/vscode-textmate-10.0.2.tgz#a90ab31d0cc1dfb54c66a69e515bf624fa7b2224"
+  integrity sha1-qQqzHQzB37VMZqaeUVv2JPp7IiQ=
+
+"@types/hast@^3.0.0", "@types/hast@^3.0.5":
+  version "3.0.5"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@types/hast/-/hast-3.0.5.tgz#48020de4c0e63492f4ca9db42068c108f68b7f8f"
+  integrity sha1-SAIN5MDmNJL0yp20IGjBCPaLf48=
+  dependencies:
+    "@types/unist" "*"
+
+"@types/mdast@^4.0.0":
+  version "4.0.4"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@types/mdast/-/mdast-4.0.4.tgz#7ccf72edd2f1aa7dd3437e180c64373585804dd6"
+  integrity sha1-fM9y7dLxqn3TQ34YDGQ3NYWATdY=
+  dependencies:
+    "@types/unist" "*"
+
 "@types/node@^22.0.0":
   version "22.20.1"
   resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@types/node/-/node-22.20.1.tgz#84e7cdf63cdaa20c134aa317ccc901aa21e16f0e"
@@ -150,25 +259,120 @@
   dependencies:
     undici-types "~6.21.0"
 
+"@types/unist@*", "@types/unist@^3.0.0":
+  version "3.0.3"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@types/unist/-/unist-3.0.3.tgz#acaab0f919ce69cce629c2d4ed2eb4adc1b6c20c"
+  integrity sha1-rKqw+RnOaczmKcLU7S60rcG2wgw=
+
+"@ungap/structured-clone@^1.0.0":
+  version "1.3.3"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/@ungap/structured-clone/-/structured-clone-1.3.3.tgz#094041e1a4cb1987f038335421281ac8be390bcc"
+  integrity sha1-CUBB4aTLGYfwODNUISgayL45C8w=
+
+braces@^3.0.3:
+  version "3.0.3"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/braces/-/braces-3.0.3.tgz#490332f40919452272d55a8480adc0c441358789"
+  integrity sha1-SQMy9AkZRSJy1VqEgK3AxEE1h4k=
+  dependencies:
+    fill-range "^7.1.1"
+
+ccount@^2.0.0:
+  version "2.0.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/ccount/-/ccount-2.0.1.tgz#17a3bf82302e0870d6da43a01311a8bc02a3ecf5"
+  integrity sha1-F6O/gjAuCHDW2kOgExGovAKj7PU=
+
+character-entities-html4@^2.0.0:
+  version "2.1.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/character-entities-html4/-/character-entities-html4-2.1.0.tgz#1f1adb940c971a4b22ba39ddca6b618dc6e56b2b"
+  integrity sha1-HxrblAyXGksiujndymthjcblays=
+
+character-entities-legacy@^3.0.0:
+  version "3.0.0"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz#76bc83a90738901d7bc223a9e93759fdd560125b"
+  integrity sha1-dryDqQc4kB17wiOp6TdZ/dVgEls=
+
+comma-separated-tokens@^2.0.0:
+  version "2.0.3"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz#4e89c9458acb61bc8fef19f4529973b2392839ee"
+  integrity sha1-TonJRYrLYbyP7xn0UplzsjkoOe4=
+
 crelt@^1.0.6:
   version "1.0.7"
   resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/crelt/-/crelt-1.0.7.tgz#3b441b2ddfa73161d6a2770aa4cd677f895eaf28"
   integrity sha1-O0QbLd+nMWHWoncKpM1nf4leryg=
+
+dequal@^2.0.0:
+  version "2.0.3"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
+  integrity sha1-JkQhTxmX057Q7g7OcjNUkKesZ74=
 
 detect-libc@^2.0.3:
   version "2.1.2"
   resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/detect-libc/-/detect-libc-2.1.2.tgz#689c5dcdc1900ef5583a4cb9f6d7b473742074ad"
   integrity sha1-aJxdzcGQDvVYOky59te0c3QgdK0=
 
+devlop@^1.0.0:
+  version "1.1.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/devlop/-/devlop-1.1.0.tgz#4db7c2ca4dc6e0e834c30be70c94bbc976dc7018"
+  integrity sha1-TbfCyk3G4Og0wwvnDJS7yXbccBg=
+  dependencies:
+    dequal "^2.0.0"
+
+diff@9.0.0:
+  version "9.0.0"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/diff/-/diff-9.0.0.tgz#297c31cd7c280f13dfe335791ec2063bd4a73a6f"
+  integrity sha1-KXwxzXwoDxPf4zV5HsIGO9SnOm8=
+
 fdir@^6.5.0:
   version "6.5.0"
   resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/fdir/-/fdir-6.5.0.tgz#ed2ab967a331ade62f18d077dae192684d50d350"
   integrity sha1-7Sq5Z6MxreYvGNB32uGSaE1Q01A=
 
+fill-range@^7.1.1:
+  version "7.1.1"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/fill-range/-/fill-range-7.1.1.tgz#44265d3cac07e3ea7dc247516380643754a05292"
+  integrity sha1-RCZdPKwH4+p9wkdRY4BkN1SgUpI=
+  dependencies:
+    to-regex-range "^5.0.1"
+
 fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=
+
+hast-util-to-html@9.0.5, hast-util-to-html@^9.0.5:
+  version "9.0.5"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/hast-util-to-html/-/hast-util-to-html-9.0.5.tgz#ccc673a55bb8e85775b08ac28380f72d47167005"
+  integrity sha1-zMZzpVu46Fd1sIrCg4D3LUcWcAU=
+  dependencies:
+    "@types/hast" "^3.0.0"
+    "@types/unist" "^3.0.0"
+    ccount "^2.0.0"
+    comma-separated-tokens "^2.0.0"
+    hast-util-whitespace "^3.0.0"
+    html-void-elements "^3.0.0"
+    mdast-util-to-hast "^13.0.0"
+    property-information "^7.0.0"
+    space-separated-tokens "^2.0.0"
+    stringify-entities "^4.0.0"
+    zwitch "^2.0.4"
+
+hast-util-whitespace@^3.0.0:
+  version "3.0.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz#7778ed9d3c92dd9e8c5c8f648a49c21fc51cb621"
+  integrity sha1-d3jtnTyS3Z6MXI9kiknCH8UctiE=
+  dependencies:
+    "@types/hast" "^3.0.0"
+
+html-void-elements@^3.0.0:
+  version "3.0.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/html-void-elements/-/html-void-elements-3.0.0.tgz#fc9dbd84af9e747249034d4d62602def6517f1d7"
+  integrity sha1-/J29hK+edHJJA01NYmAt72UX8dc=
+
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
 lightningcss-android-arm64@1.33.0:
   version "1.33.0"
@@ -244,6 +448,11 @@ lightningcss@^1.33.0:
     lightningcss-win32-arm64-msvc "1.33.0"
     lightningcss-win32-x64-msvc "1.33.0"
 
+lru_map@0.4.1:
+  version "0.4.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/lru_map/-/lru_map-0.4.1.tgz#f7b4046283c79fb7370c36f8fca6aee4324b0a98"
+  integrity sha1-97QEYoPHn7c3DDb4/Kau5DJLCpg=
+
 "markedit-api@https://github.com/MarkEdit-app/MarkEdit-api#v0.30.0":
   version "0.30.0"
   resolved "https://github.com/MarkEdit-app/MarkEdit-api#7b977ce308b57d4a9201147201e2db0394c638d3"
@@ -252,15 +461,89 @@ lightningcss@^1.33.0:
   version "0.4.0"
   resolved "https://github.com/MarkEdit-app/MarkEdit-vite#4461f569c8b7184598021442445579cf2723af5b"
 
+mdast-util-to-hast@^13.0.0:
+  version "13.2.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz#d7ff84ca499a57e2c060ae67548ad950e689a053"
+  integrity sha1-1/+EykmaV+LAYK5nVIrZUOaJoFM=
+  dependencies:
+    "@types/hast" "^3.0.0"
+    "@types/mdast" "^4.0.0"
+    "@ungap/structured-clone" "^1.0.0"
+    devlop "^1.0.0"
+    micromark-util-sanitize-uri "^2.0.0"
+    trim-lines "^3.0.0"
+    unist-util-position "^5.0.0"
+    unist-util-visit "^5.0.0"
+    vfile "^6.0.0"
+
+micromark-util-character@^2.0.0:
+  version "2.1.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/micromark-util-character/-/micromark-util-character-2.1.1.tgz#2f987831a40d4c510ac261e89852c4e9703ccda6"
+  integrity sha1-L5h4MaQNTFEKwmHomFLE6XA8zaY=
+  dependencies:
+    micromark-util-symbol "^2.0.0"
+    micromark-util-types "^2.0.0"
+
+micromark-util-encode@^2.0.0:
+  version "2.0.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz#0d51d1c095551cfaac368326963cf55f15f540b8"
+  integrity sha1-DVHRwJVVHPqsNoMmljz1XxX1QLg=
+
+micromark-util-sanitize-uri@^2.0.0:
+  version "2.0.1"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz#ab89789b818a58752b73d6b55238621b7faa8fd7"
+  integrity sha1-q4l4m4GKWHUrc9a1UjhiG3+qj9c=
+  dependencies:
+    micromark-util-character "^2.0.0"
+    micromark-util-encode "^2.0.0"
+    micromark-util-symbol "^2.0.0"
+
+micromark-util-symbol@^2.0.0:
+  version "2.0.1"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz#e5da494e8eb2b071a0d08fb34f6cefec6c0a19b8"
+  integrity sha1-5dpJTo6ysHGg0I+zT2zv7GwKGbg=
+
+micromark-util-types@^2.0.0:
+  version "2.0.2"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/micromark-util-types/-/micromark-util-types-2.0.2.tgz#f00225f5f5a0ebc3254f96c36b6605c4b393908e"
+  integrity sha1-8AIl9fWg68MlT5bDa2YFxLOTkI4=
+
+micromatch@^4.0.8:
+  version "4.0.8"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/micromatch/-/micromatch-4.0.8.tgz#d66fa18f3a47076789320b9b1af32bd86d9fa202"
+  integrity sha1-1m+hjzpHB2eJMgubGvMr2G2fogI=
+  dependencies:
+    braces "^3.0.3"
+    picomatch "^2.3.1"
+
 nanoid@^3.3.16:
   version "3.3.17"
   resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/nanoid/-/nanoid-3.3.17.tgz#f1c3aa253c52547956a52c50bff754316f61037a"
   integrity sha1-8cOqJTxSVHlWpSxQv/dUMW9hA3o=
 
+oniguruma-parser@^0.12.2:
+  version "0.12.2"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/oniguruma-parser/-/oniguruma-parser-0.12.2.tgz#e27ca446f7fcf0969662a3ab9b4f43176d62b139"
+  integrity sha1-4nykRvf88JaWYqOrm09DF21isTk=
+
+oniguruma-to-es@^4.3.6:
+  version "4.3.6"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/oniguruma-to-es/-/oniguruma-to-es-4.3.6.tgz#43e640280241b0d687a314e7a641d476407a1c4d"
+  integrity sha1-Q+ZAKAJBsNaHoxTnpkHUdkB6HE0=
+  dependencies:
+    oniguruma-parser "^0.12.2"
+    regex "^6.1.0"
+    regex-recursion "^6.0.2"
+
 picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
   integrity sha1-PTIa8+q5ObCDyPkpodEs2oHCa2s=
+
+picomatch@^2.3.1:
+  version "2.3.2"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
+  integrity sha1-WpQpFeJrNy3A8OZ1MUmhbmscVgE=
 
 picomatch@^4.0.4, picomatch@^4.0.5:
   version "4.0.5"
@@ -280,6 +563,30 @@ prettier@^3.9.6:
   version "3.9.6"
   resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/prettier/-/prettier-3.9.6.tgz#b3ea5146515d40fc53f18aa63f74dfab1e10dbf6"
   integrity sha1-s+pRRlFdQPxT8YqmP3Tfqx4Q2/Y=
+
+property-information@^7.0.0:
+  version "7.2.0"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/property-information/-/property-information-7.2.0.tgz#0809b34264e995c0bfcd3227028a1e35210af80a"
+  integrity sha1-CAmzQmTplcC/zTInAooeNSEK+Ao=
+
+regex-recursion@^6.0.2:
+  version "6.0.2"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/regex-recursion/-/regex-recursion-6.0.2.tgz#a0b1977a74c87f073377b938dbedfab2ea582b33"
+  integrity sha1-oLGXenTIfwczd7k42+36supYKzM=
+  dependencies:
+    regex-utilities "^2.3.0"
+
+regex-utilities@^2.3.0:
+  version "2.3.0"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/regex-utilities/-/regex-utilities-2.3.0.tgz#87163512a15dce2908cf079c8960d5158ff43280"
+  integrity sha1-hxY1EqFdzikIzweciWDVFY/0MoA=
+
+regex@^6.1.0:
+  version "6.1.0"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/regex/-/regex-6.1.0.tgz#d7ce98f8ee32da7497c13f6601fca2bc4a6a7803"
+  integrity sha1-186Y+O4y2nSXwT9mAfyivEpqeAM=
+  dependencies:
+    regex-utilities "^2.3.0"
 
 rolldown@~1.2.0:
   version "1.2.2"
@@ -304,10 +611,37 @@ rolldown@~1.2.0:
     "@rolldown/binding-win32-arm64-msvc" "1.2.2"
     "@rolldown/binding-win32-x64-msvc" "1.2.2"
 
+"shiki@^3.0.0 || ^4.0.0":
+  version "4.4.3"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/shiki/-/shiki-4.4.3.tgz#31fb41c5c82435779a0b5a9b92a3b0377b061e15"
+  integrity sha1-MftBxcgkNXeaC1qbkqOwN3sGHhU=
+  dependencies:
+    "@shikijs/core" "4.4.3"
+    "@shikijs/engine-javascript" "4.4.3"
+    "@shikijs/engine-oniguruma" "4.4.3"
+    "@shikijs/langs" "4.4.3"
+    "@shikijs/themes" "4.4.3"
+    "@shikijs/types" "4.4.3"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.5"
+
 source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
   integrity sha1-HOVlD93YerwJnto33P8CTCZnrkY=
+
+space-separated-tokens@^2.0.0:
+  version "2.0.2"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
+  integrity sha1-Hs2dI1CjhEVyw/SjErzrAYNIhZ8=
+
+stringify-entities@^4.0.0:
+  version "4.0.4"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/stringify-entities/-/stringify-entities-4.0.4.tgz#b3b79ef5f277cc4ac73caeb0236c5ba939b3a4f3"
+  integrity sha1-s7ee9fJ3zErHPK6wI2xbqTmzpPM=
+  dependencies:
+    character-entities-html4 "^2.0.0"
+    character-entities-legacy "^3.0.0"
 
 style-mod@^4.0.0, style-mod@^4.1.0:
   version "4.1.3"
@@ -322,6 +656,18 @@ tinyglobby@^0.2.17:
     fdir "^6.5.0"
     picomatch "^4.0.4"
 
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
+  dependencies:
+    is-number "^7.0.0"
+
+trim-lines@^3.0.0:
+  version "3.0.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/trim-lines/-/trim-lines-3.0.1.tgz#d802e332a07df861c48802c04321017b1bd87338"
+  integrity sha1-2ALjMqB9+GHEiALAQyEBexvYczg=
+
 typescript@^5.0.0:
   version "5.9.3"
   resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
@@ -331,6 +677,67 @@ undici-types@~6.21.0:
   version "6.21.0"
   resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
   integrity sha1-aR0ArzkJvpOn+qE75hs6W1DvEss=
+
+unist-util-is@^6.0.0:
+  version "6.0.1"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/unist-util-is/-/unist-util-is-6.0.1.tgz#d0a3f86f2dd0db7acd7d8c2478080b5c67f9c6a9"
+  integrity sha1-0KP4by3Q23rNfYwkeAgLXGf5xqk=
+  dependencies:
+    "@types/unist" "^3.0.0"
+
+unist-util-position@^5.0.0:
+  version "5.0.0"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/unist-util-position/-/unist-util-position-5.0.0.tgz#678f20ab5ca1207a97d7ea8a388373c9cf896be4"
+  integrity sha1-Z48gq1yhIHqX1+qKOINzyc+Ja+Q=
+  dependencies:
+    "@types/unist" "^3.0.0"
+
+unist-util-stringify-position@^4.0.0:
+  version "4.0.0"
+  resolved "https://ms-feed-17.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz#449c6e21a880e0855bf5aabadeb3a740314abac2"
+  integrity sha1-RJxuIaiA4IVb9aq63rOnQDFKusI=
+  dependencies:
+    "@types/unist" "^3.0.0"
+
+unist-util-visit-parents@^6.0.0:
+  version "6.0.2"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz#777df7fb98652ce16b4b7cd999d0a1a40efa3a02"
+  integrity sha1-d333+5hlLOFrS3zZmdChpA76OgI=
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-is "^6.0.0"
+
+unist-util-visit@^5.0.0:
+  version "5.1.0"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/unist-util-visit/-/unist-util-visit-5.1.0.tgz#9a2a28b0aa76a15e0da70a08a5863a2f060e2468"
+  integrity sha1-mioosKp2oV4NpwoIpYY6LwYOJGg=
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-is "^6.0.0"
+    unist-util-visit-parents "^6.0.0"
+
+vfile-message@^4.0.0:
+  version "4.0.3"
+  resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/vfile-message/-/vfile-message-4.0.3.tgz#87b44dddd7b70f0641c2e3ed0864ba73e2ea8df4"
+  integrity sha1-h7RN3de3DwZBwuPtCGS6c+LqjfQ=
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-stringify-position "^4.0.0"
+
+vfile@^6.0.0:
+  version "6.0.3"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/vfile/-/vfile-6.0.3.tgz#3652ab1c496531852bf55a6bac57af981ebc38ab"
+  integrity sha1-NlKrHEllMYUr9VprrFevmB68OKs=
+  dependencies:
+    "@types/unist" "^3.0.0"
+    vfile-message "^4.0.0"
+
+vite-plugin-singlefile@^2.3.3:
+  version "2.3.3"
+  resolved "https://ms-feed-2.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/vite-plugin-singlefile/-/vite-plugin-singlefile-2.3.3.tgz#e859aea4c0c4b74fcbba6baf527e88f2ad09de69"
+  integrity sha1-6FmupMDEt0/LumuvUn6I8q0J3mk=
+  dependencies:
+    micromatch "^4.0.8"
 
 vite@^8.0.0:
   version "8.2.0"
@@ -349,3 +756,8 @@ w3c-keyname@^2.2.4:
   version "2.2.8"
   resolved "https://ms-feed-12.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/w3c-keyname/-/w3c-keyname-2.2.8.tgz#7b17c8c6883d4e8b86ac8aba79d39e880f8869c5"
   integrity sha1-exfIxog9TouGrIq6edOeiA+IacU=
+
+zwitch@^2.0.4:
+  version "2.0.4"
+  resolved "https://ms-feed-25.pkgs.visualstudio.com/1es-public/_packaging/npm-public/npm/registry/zwitch/-/zwitch-2.0.4.tgz#c827d4b0acb76fc3e685a4c6ec2902d51070e9d7"
+  integrity sha1-yCfUsKy3b8PmhaTG7CkC1RBw6dc=

@@ -1,0 +1,115 @@
+.markedit-prettier-overlay {
+  --overlay-color: #242629;
+  --overlay-background: #f7f7f8;
+  --toolbar-background: #ffffff;
+  --border-color: #d9d9dc;
+  --button-border-color: #c8c8cc;
+  --button-background: #ffffff;
+  --button-hover-background: #eeeeef;
+  position: fixed;
+  z-index: 1000;
+  display: grid;
+  grid-template-rows: 42px minmax(0, 1fr);
+  overflow: hidden;
+  opacity: 0;
+  color: var(--overlay-color);
+  background: var(--overlay-background);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  transition: opacity 160ms ease-out;
+}
+
+.markedit-prettier-overlay.is-visible {
+  opacity: 1;
+}
+
+.markedit-prettier-overlay:focus {
+  outline: none;
+}
+
+.markedit-prettier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px 0 14px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--toolbar-background);
+}
+
+.markedit-prettier-header strong {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.markedit-prettier-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.markedit-prettier-actions button {
+  min-width: 64px;
+  height: 26px;
+  padding: 0 10px;
+  border: 1px solid var(--button-border-color);
+  border-radius: 5px;
+  color: inherit;
+  background: var(--button-background);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.markedit-prettier-actions button:hover {
+  background: var(--button-hover-background);
+}
+
+.markedit-prettier-actions button[data-action='apply'] {
+  border-color: #1473e6;
+  color: #ffffff;
+  background: #1473e6;
+}
+
+.markedit-prettier-actions button[data-action='apply']:hover {
+  background: #0867d1;
+}
+
+.markedit-prettier-actions button:focus-visible {
+  outline: 2px solid #1473e6;
+  outline-offset: 2px;
+}
+
+.markedit-prettier-diff {
+  min-height: 0;
+  overflow: auto;
+  --diffs-font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --diffs-font-size: 13px;
+  --diffs-line-height: 1.55;
+  --diffs-header-font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.markedit-prettier-diff > diffs-container {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .markedit-prettier-overlay {
+    transition: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .markedit-prettier-overlay {
+    --overlay-color: #f2f2f4;
+    --overlay-background: #1c1c1e;
+    --toolbar-background: #242426;
+    --border-color: #3a3a3c;
+    --button-border-color: #4c4c4f;
+    --button-background: #323234;
+    --button-hover-background: #414144;
+  }
+}

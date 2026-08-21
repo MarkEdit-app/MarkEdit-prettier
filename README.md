@@ -8,7 +8,7 @@ Install this extension from the [MarkEdit Extension Registry](https://markedit-a
 
 ## Usage
 
-Run `Prettify Content` from the menu bar or press `Shift-Control-Command-P`.
+Run `Prettify Content` from the menu bar or press `Shift-Control-Command-P`, then review the inline diff and choose `Discard` or `Apply`.
 
 ## Settings
 
