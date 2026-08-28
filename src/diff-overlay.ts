@@ -64,16 +64,17 @@ export function showDiff(editorView: EditorView, original: string, prettified: s
   }
 
   const diff = new FileDiff({
-    theme: { dark: 'pierre-dark', light: 'pierre-light' },
+    theme: { dark: 'github-dark-default', light: 'github-light-default' },
     diffStyle: 'unified',
     diffIndicators: 'classic',
     disableFileHeader: true,
     overflow: 'wrap',
+    unsafeCSS: '[data-gutter] { -webkit-user-select: none; user-select: none; }',
   });
 
   diff.render({
-    oldFile: { name: 'document.md', contents: original },
-    newFile: { name: 'document.md', contents: prettified },
+    oldFile: { name: 'document.md', contents: original, lang: 'markdown' },
+    newFile: { name: 'document.md', contents: prettified, lang: 'markdown' },
     containerWrapper: diffContainer,
   });
 

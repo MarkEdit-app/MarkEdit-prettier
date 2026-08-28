@@ -1,6 +1,6 @@
 {
   "name": "markedit-prettier",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Prettier for MarkEdit.",
   "scripts": {
     "build": "vite build",
